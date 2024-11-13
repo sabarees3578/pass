@@ -1,0 +1,23 @@
+/* src/components/Dashboard.css */
+.dashboard {
+    padding: 20px;
+  }
+  
+  .dashboard-sections {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+  }
+  
+  .section {
+    width: 30%;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+    border:  2px solid black;
+  }
+  
+  .section:hover {
+    transform: scale(1.05);
+  }
+   

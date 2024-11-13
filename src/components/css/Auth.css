@@ -1,0 +1,78 @@
+/* src/components/Auth.css */
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap');
+.auth-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: "Doto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "ROND" 0;
+  animation: myAnim 2s ease 0s 1 normal forwards;
+}
+
+.auth-container h2 {
+  color: #2D033B;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.auth-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.auth-container input {
+  padding: 0.8rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.auth-container button {
+  padding: 0.8rem;
+  font-size: 1rem;
+  background-color: #810CA8;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.auth-container button:hover {
+  background-color: #C147E9;
+}
+
+.auth-container p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.auth-container a {
+  color: #ffff;
+  text-decoration: none;
+}
+
+.error-message {
+  color: #FF0000;
+  font-size: 0.9rem;
+}
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+		transform: scale(1.4);
+	}
+
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
+}

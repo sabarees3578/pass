@@ -1,0 +1,45 @@
+/* src/components/About.css */
+
+.about-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 2rem;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .about-container h1 {
+    font-size: 2.5rem;
+    color: #2D033B;
+    text-align: center;
+  }
+  
+  .about-container h2 {
+    font-size: 1.8rem;
+    color: #810CA8;
+    margin-top: 2rem;
+  }
+  
+  .about-features ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .about-features li {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+  }
+  
+  .about-features strong {
+    color: #C147E9;
+  }
+  
+  .about-security, .about-mission {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+  }
+  
+  p {
+    margin: 1rem 0;
+  }
+  
